@@ -1,6 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+      text-align: center;
+}
+
 header{
     background-color: aqua;
 }
-#produtos{
+
+#produtos{ 
+     background-color: blueviolet;
+     height: 700px;
+     padding-top: 30px;
+}
+#parceiros{
+    background-color: brown;
+    height: 700px;
+}
+#hitoria{
+    background-color: burlywood;
+    height: 700px;
+
+}
+ #cadatro{
+      background-color: blue;
+      height: 700px;
+   }
+
+.menu {
+   background-color: aquamarine;
+}
+.menu a{
+text-decoration: black;
+font-size: larger;
+font-weight:bolder ;
+font-family: Arial, Helvetica, sans-serif;
+color: azure;
+transition: 0.3s;
+padding: 5px;
+
+}
+
+.menu a:hover{
+      color: blue;
+      text-decoration: underline;
+      background-color: antiquewhite;
+      border-radius: 3px;
     
+}
+
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.texto_1{
+    background-color: bisque;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+
+}
+
+.texto_1hover{
+    background-color: aquamarine;
+}
+
+.texto_1p{ 
+   /* border: solid red 2px; */
+    text-align: justify;
 }
